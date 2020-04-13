@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Spring Security SAML Example</title>
+</head>
+<body>
+<h1> Logged in SAML enabled application !</h1>
+<br></br>
+    <h2>User Details:</h2>
+    <div>Username: <span th:text="${userName}"></span></div>
+    <div>First Name: <span th:text="${firstName}"></span></div>
+    <div>Last Name: <span th:text="${lastName}"></span></div>
+    <div>Email: <span th:text="${email}"></span></div>
+        <div>Mobile No.: <span th:text="${mobilePhone}"></span></div>
+        <div>City: <span th:text="${city}"></span></div>
+        <div>State: <span th:text="${state}"></span></div>
+        <div>Zip Code: <span th:text="${zipCode}"></span></div>
+    
+
+<p> <b>Note: </b> Spirng Boot App is a Service Provider, and Okta is an Identity Provider</p>
+
+</body>
+</html>
